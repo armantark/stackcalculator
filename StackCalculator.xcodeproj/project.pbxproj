@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C3C99BBA1D2C9C6C00346A87 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3C99BB91D2C9C6C00346A87 /* main.cpp */; };
+		C36EFCC81D372184007CEC95 /* UnbalancedParenthesesException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C36EFCC61D372184007CEC95 /* UnbalancedParenthesesException.cpp */; };
+		C37C620D1D372CB8007179C5 /* DivideByZeroException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C37C620B1D372CB8007179C5 /* DivideByZeroException.cpp */; };
+		C37C62101D372DD2007179C5 /* InvalidCharactersException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C37C620E1D372DD2007179C5 /* InvalidCharactersException.cpp */; };
+		C37EA9401D2DE5500005C4A7 /* Calculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C37EA9391D2DE5500005C4A7 /* Calculator.cpp */; };
+		C37EA9411D2DE5500005C4A7 /* DynamicArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C37EA93B1D2DE5500005C4A7 /* DynamicArray.cpp */; };
+		C37EA9421D2DE5500005C4A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C37EA93D1D2DE5500005C4A7 /* main.cpp */; };
+		C37EA9431D2DE5500005C4A7 /* Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C37EA93E1D2DE5500005C4A7 /* Stack.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +29,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C36EFCC61D372184007CEC95 /* UnbalancedParenthesesException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UnbalancedParenthesesException.cpp; sourceTree = "<group>"; };
+		C36EFCC71D372184007CEC95 /* UnbalancedParenthesesException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnbalancedParenthesesException.h; sourceTree = "<group>"; };
+		C37C620B1D372CB8007179C5 /* DivideByZeroException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DivideByZeroException.cpp; sourceTree = "<group>"; };
+		C37C620C1D372CB8007179C5 /* DivideByZeroException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivideByZeroException.h; sourceTree = "<group>"; };
+		C37C620E1D372DD2007179C5 /* InvalidCharactersException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InvalidCharactersException.cpp; sourceTree = "<group>"; };
+		C37C620F1D372DD2007179C5 /* InvalidCharactersException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvalidCharactersException.h; sourceTree = "<group>"; };
+		C37EA9391D2DE5500005C4A7 /* Calculator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Calculator.cpp; sourceTree = "<group>"; };
+		C37EA93A1D2DE5500005C4A7 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		C37EA93B1D2DE5500005C4A7 /* DynamicArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DynamicArray.cpp; sourceTree = "<group>"; };
+		C37EA93C1D2DE5500005C4A7 /* DynamicArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicArray.h; sourceTree = "<group>"; };
+		C37EA93D1D2DE5500005C4A7 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C37EA93E1D2DE5500005C4A7 /* Stack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stack.cpp; sourceTree = "<group>"; };
+		C37EA93F1D2DE5500005C4A7 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		C3C99BB61D2C9C6C00346A87 /* StackCalculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StackCalculator; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3C99BB91D2C9C6C00346A87 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +75,19 @@
 		C3C99BB81D2C9C6C00346A87 /* StackCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				C3C99BB91D2C9C6C00346A87 /* main.cpp */,
+				C37EA93D1D2DE5500005C4A7 /* main.cpp */,
+				C36EFCC61D372184007CEC95 /* UnbalancedParenthesesException.cpp */,
+				C36EFCC71D372184007CEC95 /* UnbalancedParenthesesException.h */,
+				C37C620B1D372CB8007179C5 /* DivideByZeroException.cpp */,
+				C37C620C1D372CB8007179C5 /* DivideByZeroException.h */,
+				C37C620E1D372DD2007179C5 /* InvalidCharactersException.cpp */,
+				C37C620F1D372DD2007179C5 /* InvalidCharactersException.h */,
+				C37EA9391D2DE5500005C4A7 /* Calculator.cpp */,
+				C37EA93A1D2DE5500005C4A7 /* Calculator.h */,
+				C37EA93B1D2DE5500005C4A7 /* DynamicArray.cpp */,
+				C37EA93C1D2DE5500005C4A7 /* DynamicArray.h */,
+				C37EA93E1D2DE5500005C4A7 /* Stack.cpp */,
+				C37EA93F1D2DE5500005C4A7 /* Stack.h */,
 			);
 			path = StackCalculator;
 			sourceTree = "<group>";
@@ -118,7 +148,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3C99BBA1D2C9C6C00346A87 /* main.cpp in Sources */,
+				C37EA9401D2DE5500005C4A7 /* Calculator.cpp in Sources */,
+				C37EA9411D2DE5500005C4A7 /* DynamicArray.cpp in Sources */,
+				C37C62101D372DD2007179C5 /* InvalidCharactersException.cpp in Sources */,
+				C37EA9431D2DE5500005C4A7 /* Stack.cpp in Sources */,
+				C37C620D1D372CB8007179C5 /* DivideByZeroException.cpp in Sources */,
+				C36EFCC81D372184007CEC95 /* UnbalancedParenthesesException.cpp in Sources */,
+				C37EA9421D2DE5500005C4A7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +275,7 @@
 				C3C99BBF1D2C9C6C00346A87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
